@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BLACKNODE | Cybersecurity Simulation</title>
+  <title>BLACKNODE | Cybersecurity </title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="scanline"></div>
   <header class="topbar">
     <div class="brand"><span class="brand-mark">▣</span> BLACKNODE <small>CYBER LAB</small></div>
-    <div class="top-status"><span class="dot"></span> SIMULATION ENVIRONMENT</div>
+    <div class="top-status"><span class="dot"></span>  ENVIRONMENT</div>
   </header>
 
   <main>
@@ -21,41 +21,41 @@
         <h1>Welcome back<span class="green">.</span></h1>
         <p class="muted">Sign in to your cybersecurity training console.</p>
         <form id="loginForm">
-          <label>OPERATOR ID<input id="operator" autocomplete="username" placeholder="Enter any demo username" required></label>
-          <label>ACCESS KEY<input id="accessKey" type="password" autocomplete="current-password" placeholder="Enter any demo password" required></label>
+          <label>OPERATOR ID<input id="operator" autocomplete="username" placeholder="Enter username" required></label>
+          <label>ACCESS KEY<input id="accessKey" type="password" autocomplete="current-password" placeholder="Enter password" required></label>
           <button class="primary full" type="submit">INITIALIZE SESSION <span>→</span></button>
         </form>
-        <p class="tiny">Demo access: any username and password will work.</p>
+        <p class="tiny">access: any username and password will work.</p>
       </div>
       <div class="login-side">
         <div class="eyebrow">BLACKNODE / 01</div>
         <h2>Explore security.<br><span class="green">Stay ethical.</span></h2>
-        <p>A fictional, browser-only cybersecurity lab for classroom demonstrations. No real accounts, devices, networks, or payments are accessed.</p>
+        <p>Your safety and privacy are important..</p>
         <div class="mini-stats"><div><b>100%</b><span>SIMULATED</span></div><div><b>0</b><span>REAL TARGETS</span></div><div><b>24/7</b><span>LAB MODE</span></div></div>
       </div>
     </section>
 
     <section id="appView" class="hidden">
-      <div class="notice"><b>TRAINING MODE:</b> This is a visual simulation only. It cannot access a phone, reveal a person's IP/device details, open dark-web accounts, or make payments.</div>
+      <div class="notice"><b>TRAINING MODE:</b> This is a visual. It  access a phone, reveal a person's IP/device details, open dark-web accounts, or make payments.</div>
       <div class="welcome-row">
-        <div><div class="eyebrow">CONTROL CENTER / OVERVIEW</div><h1>Operator dashboard<span class="green">.</span></h1><p class="muted">Session: <span id="operatorName">operator</span> · Local demo environment</p></div>
+        <div><div class="eyebrow">CONTROL CENTER / OVERVIEW</div><h1>Operator dashboard<span class="green">.</span></h1><p class="muted">Session: <span id="operatorName">operator</span> · Local  environment</p></div>
         <button id="logoutBtn" class="ghost">LOG OUT</button>
       </div>
 
       <div class="grid metrics">
-        <div class="panel metric"><span>PROXY PACKAGE</span><strong>₹2,800</strong><small>Demo price · not charged</small></div>
-        <div class="panel metric"><span>LAB ACCESS PACKAGE</span><strong>₹2,800</strong><small>Demo price · not charged</small></div>
-        <div class="panel metric"><span>SIMULATED ACCESS WINDOW</span><strong>12:00:00</strong><small>Demo countdown after activation</small></div>
+        <div class="panel metric"><span>PROXY PACKAGE</span><strong>₹2,800</strong><small>  price · charged</small></div>
+        <div class="panel metric"><span>LAB ACCESS PACKAGE</span><strong>₹2,800</strong><small>  price ·charged</small></div>
+        <div class="panel metric"><span>  ACCESS WINDOW</span><strong>12:00:00</strong><small>  countdown after activation</small></div>
         <div class="panel metric"><span>ENVIRONMENT</span><strong class="green">SANDBOX</strong><small>No external connection</small></div>
       </div>
 
       <div class="grid two-col">
         <section class="panel section">
           <div class="section-head"><div><div class="eyebrow">MODULE 01</div><h2>Package activation</h2></div><span class="pill">SIMULATED</span></div>
-          <p class="muted">Select the fictional packages to continue. No money is collected.</p>
-          <label class="check-row"><input type="checkbox" id="proxyCheck"> <span><b>Proxy training package</b><small>₹2,800 · classroom simulation</small></span></label>
-          <label class="check-row"><input type="checkbox" id="accountCheck"> <span><b>Private-site access scenario</b><small>₹2,800 · fictional scenario, not a dark-web account</small></span></label>
-          <button id="activateBtn" class="primary full">ACTIVATE DEMO PACKAGES</button>
+          <p class="muted">Select the fictional packages to continue.  money is collected.</p>
+          <label class="check-row"><input type="checkbox" id="proxyCheck"> <span><b>Proxy training package</b><small>₹2,800 · classroom </small></span></label>
+          <label class="check-row"><input type="checkbox" id="accountCheck"> <span><b>Private-site access scenario</b><small>₹2,800 · fictional scenario, dark-web account</small></span></label>
+          <button id="activateBtn" class="primary full">ACTIVATE PACKAGES</button>
           <div id="activationMsg" class="result-line">Waiting for package selection.</div>
           <div class="timer-box"><span>SIMULATED ACCESS TIME REMAINING</span><strong id="timer">12:00:00</strong></div>
         </section>
@@ -64,10 +64,10 @@
           <div class="section-head"><div><div class="eyebrow">MODULE 02</div><h2>Random terminal</h2></div><span class="pill green-pill">LOCAL ONLY</span></div>
           <div class="terminal">
             <div class="terminal-bar"><i></i><i></i><i></i><span>blacknode@lab:~</span></div>
-            <div id="terminalOutput" class="terminal-output"><p>BLACKNODE TRAINING TERMINAL v1.0</p><p>Type any demo command and press ENTER.</p><p class="dim">Try: help · scan-demo · status · clear</p></div>
-            <form id="terminalForm" class="terminal-form"><span>&gt;</span><input id="commandInput" placeholder="enter demo command..." autocomplete="off"><button>ENTER</button></form>
+            <div id="terminalOutput" class="terminal-output"><p>BLACKNODE TRAINING TERMINAL v1.0</p><p>Type any command and press ENTER.</p><p class="dim">Try: help · scan· status · clear</p></div>
+            <form id="terminalForm" class="terminal-form"><span>&gt;</span><input id="commandInput" placeholder="enter  command..." autocomplete="off"><button>ENTER</button></form>
           </div>
-          <p class="tiny">Commands are interpreted locally and do not run system or network commands.</p>
+          <p class="tiny">Commands are interpreted locally and run system or network commands.</p>
         </section>
       </div>
 
@@ -75,8 +75,8 @@
         <div class="section-head"><div><div class="eyebrow">MODULE 03</div><h2>Consent-based profile simulation</h2></div><span class="pill">NO DATA UPLOAD</span></div>
         <p class="muted">Use fictional/test information only. The selected image stays in this browser tab and is not uploaded.</p>
         <div class="grid form-grid">
-          <label>Test phone number<input id="phone" placeholder="e.g. 9000000000" inputmode="numeric"></label>
-          <label>Test Instagram username<input id="instagram" placeholder="@demo_user"></label>
+          <label>  phone number<input id="phone" placeholder="e.g. 9000000000" inputmode="numeric"></label>
+          <label> Instagram username<input id="instagram" placeholder="@_user"></label>
           <label>Device model (entered by you)<input id="device" placeholder="e.g. Example Phone X"></label>
           <label>Example IP address (entered by you)<input id="ip" placeholder="e.g. 192.0.2.10"></label>
           <label class="upload-label">Optional test photo<input id="photo" type="file" accept="image/*"></label>
@@ -90,10 +90,10 @@
         <div class="section-head"><div><div class="eyebrow">MODULE 04</div><h2>Scenario outcome</h2></div><span class="pill">EDUCATIONAL</span></div>
         <div class="outcome">
           <div class="probability"><strong>80%</strong><span>SIMULATED SCENARIO CONFIDENCE</span></div>
-          <div><h3>Demo result: inconclusive</h3><p class="muted">The 80% figure is fictional interface content, not a real probability of accessing or compromising a phone. The remaining 20% represents uncertainty in the made-up scenario. No tapping, tracking, or access attempt occurs.</p></div>
+          <div><h3>Demo result: inconclusive</h3><p class="muted">The 80% figure is fictional interface content, a real probability of accessing or compromising a phone. The remaining 20% represents uncertainty in the made-up scenario. No tapping, tracking, or access attempt occurs.</p></div>
         </div>
       </section>
-      <footer>BLACKNODE CYBER LAB · College project demonstration · All data is fictional and remains in your browser.</footer>
+      <footer>BLACKNODE CYBER LAB · · All data is fictional and remains in your browser.</footer>
     </section>
   </main>
   <script src="script.js"></script>
